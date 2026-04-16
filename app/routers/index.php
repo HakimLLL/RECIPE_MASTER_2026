@@ -2,5 +2,8 @@
 
 // route par défaut
 // PATTERN: /
-//CTRL: ? 
-//ACTION :?
+//CTRL: PagesController
+//ACTION :home
+
+include_once '../app/controllers/pagesController.php';
+\app\Controllers\PagesController\homeAction($conn);
