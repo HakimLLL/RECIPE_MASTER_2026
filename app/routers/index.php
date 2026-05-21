@@ -1,9 +1,8 @@
 <?php
 
-// route par défaut
+// ROUTE PAR DÉFAUT
 // PATTERN: /
-//CTRL: PagesController
-//ACTION :home
-
+// CTRL: pagesController (composite)
+// ACTION: home
 include_once '../app/controllers/pagesController.php';
-\app\Controllers\PagesController\homeAction($conn);
+\App\Controllers\PagesController\homeAction($conn);

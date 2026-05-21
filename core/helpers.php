@@ -1,13 +1,10 @@
 <?php
 
-
 namespace Core\Helpers;
-
 
 function truncate($text, $limit = 100)
 {
     if (strlen($text) <= $limit) return $text;
-
 
     // Coupe à la limite
     $text = substr($text, 0, $limit);
