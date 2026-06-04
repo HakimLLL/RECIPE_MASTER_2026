@@ -6,8 +6,6 @@
 if (isset($_GET['recipes'])):
     include_once '../app/routers/Recipes.php';
 
-
-
 // ROUTE PAR DÉFAUT
 // PATTERN: /
 // CTRL: pagesController (composite)

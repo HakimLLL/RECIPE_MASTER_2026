@@ -5,7 +5,7 @@
 
     <!-- Recipe Info -->
     <div class="p-4">
-        <h1 class="text-3xl font-bold mb-4">Nom de la recette</h1>
+        <h1 class="text-3xl font-bold mb-4"><?php echo $recipe['name'] ?></h1>
         <div class="flex items-center mb-4">
             <span class="text-yellow-500 mr-1"><i class="fas fa-star"></i></span>
             <span>4.9</span>
