@@ -1,3 +1,8 @@
+<?php
+
+
+/**  @var array $userLatestRecipes [id, title, ...]*/
+?>
 <div>
     <h4
         class="text-xl font-bold mb-4 border-b-2 border-yellow-500 pb-2">
@@ -24,7 +29,7 @@
                         <?php echo \Core\Helpers\truncate($recipe['description'], 50); ?>
                     </p>
                     <a
-                        href="recipe_detail.html"
+                        href="?recipes=show&id=<?php echo $recipe['id']; ?>"
                         class="text-yellow-500 hover:text-yellow-600 mt-2 inline-block">Voir la recette</a>
                 </div>
             </article>
